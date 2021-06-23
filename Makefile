@@ -101,7 +101,7 @@ proto:
 		proto/api_v2/model.proto
 	
 	$(PROTOC_WITH_GRPC) \
-		proto/api_v2/query.proto \
+		proto/api_v2/query-idl.proto \
 		proto/api_v2/collector.proto \
 		proto/api_v2/sampling.proto
 
